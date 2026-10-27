@@ -1,0 +1,76 @@
+
+Creating and testing LookupTable<int, Customer>...
+
+Printing table after inserting 3 keys and removing 1...
+8001  Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+8002  Nmae: Joe Morrison. Address: 11 St. Calgary.. Phone:: (403)-1111-123333
+
+Looking up keys...
+
+Found key: 8001  Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+
+Sorry, I couldn't find key: 8000 in the table.
+
+Testing iterator...
+First datum: Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+Nmae: Joe Morrison. Address: 11 St. Calgary.. Phone:: (403)-1111-123333
+
+Testing copy constructor (keys should be 8001 and 8002)...
+8001  Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+8002  Nmae: Joe Morrison. Address: 11 St. Calgary.. Phone:: (403)-1111-123333
+
+Testing assignment operator (key should be 8001)...
+8001  Nmae: Jack Lewis. Address: 12 St. Calgary.. Phone:: (403)-1111-123334
+
+Printing empty table...
+  Table is EMPTY.
+
+Creating and testing LookupTable<int, Mystring>...
+
+Printing table...
+8001  C++ is a powerful language for engineers but it's not easy.
+8002  I am an ENEL-409 student.
+
+Found key: 8001  C++ is a powerful language for engineers but it's not easy.
+
+Sorry, I couldn't find key: 8000 in the table.
+
+First datum: C++ is a powerful language for engineers but it's not easy.
+C++ is a powerful language for engineers but it's not easy.
+I am an ENEL-409 student.
+
+Testing copy constructor...
+8001  C++ is a powerful language for engineers but it's not easy.
+8002  I am an ENEL-409 student.
+
+Testing assignment operator...
+8001  C++ is a powerful language for engineers but it's not easy.
+
+Printing empty table...
+  Table is EMPTY.
+
+Creating and testing LookupTable<int, int>...
+
+Printing table...
+8001  8888
+8002  9999
+
+Found key: 8001  8888
+
+Sorry, I couldn't find key: 8000 in the table.
+8888
+9999
+
+Testing copy constructor...
+8001  8888
+8002  9999
+
+Testing assignment operator...
+8001  8888
+
+Printing empty table...
+  Table is EMPTY.
+
+
+Program terminated successfully.
